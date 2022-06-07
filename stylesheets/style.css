@@ -1,0 +1,18 @@
+@import "fonts.css";
+@import "reset.css";
+@import "content.css";
+@import "responsive.css";
+
+
+
+@font-face {
+font-family: "Stratos-semilight";
+src: url("../font/Stratos-semilight.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+
+.grid-container{
+  display: grid;
+}
