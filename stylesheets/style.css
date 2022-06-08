@@ -11,7 +11,19 @@ src: url("../font/Stratos-semilight.otf") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
+@font-face {
+font-family: "Stratos-light";
+src: url("../font/StratosLCG-Desktop-light.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
 
+@font-face {
+font-family: "Stratos-extralight";
+src: url("../font/StratosLCG-Desktop-extralight.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
 
 .grid-container{
   display: grid;
