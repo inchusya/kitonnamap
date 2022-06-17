@@ -1,3 +1,10 @@
+.indexback{
+  background: #0014C8;
+  text-decoration-color: #EFEFEF;
+}
+
+
+
 body {
   background: #EFEFEF;
 
@@ -19,16 +26,28 @@ p {
   font-family: Stratos-semilight;
   color: #0014C8;
 }
-.mapimg{
-  background-image: url("../img/map.svg");
+.mapimg, .mapimgwhite{
+
   background-size: 150%;
   background-position: top;
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
-  height: 107vw;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  border-color: none;
+ }
+
+.mapimgwhite{
+    background-image: url("../img/mapwhite.svg");
+    transform: rotate(-115deg);
+    height: 100%;
+
+}
+.mapimg{
+    background-image: url("../img/map.svg");
+    height: 107vw;
+}
 
 .raspisanie{
   font-size: 10vw;
@@ -61,6 +80,15 @@ p {
    width: 62.1vw;
    height: 5vw;
  }
+
+ .tText{
+   font-size: 3.7vw;
+   display: inline-block;
+ }
+.aboutras{
+   display: inline-block;
+   vertical-align: center;
+}
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -334,3 +362,83 @@ border-right: 1px solid #0014C8;}
 .g78 { grid-area: g78;
 border-top: 1px solid #0014C8;
 border-right: 1px solid #0014C8;}
+
+
+/* gruz */
+#search{
+  position: absolute;
+  z-index: 1;
+  height: 3vw;
+  width: 49.6vw;
+  font-size: 1.3vw;
+  font-family: Stratos;
+  color: #0014C8;
+  margin-top: 19vw;
+  margin-left: 25vw;
+  border: none;
+
+}
+input:focus{
+  outline: none;
+}
+#searchb{
+  position: absolute;
+  z-index: 1;
+  height: 3.4vw;
+  width: 5vw;
+  font-size: 1.3vw;
+  font-family: Stratos;
+  color: #0014C8;
+  margin-top: 19vw;
+  margin-left: 76vw;
+  background-color: #EFEFEF;
+  border: 1px solid #0014C8;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #white;
+}
+
+
+/* error */
+.errorback{
+  background: #0014C8;
+  text-decoration-color: #EFEFEF;
+  font-size: 1.3vw;
+}
+/* .erblock{
+  display: block;
+  height: 54vw;
+  width: 90vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
+} */
+
+.er{
+  display: block;
+}
+
+#inlineError {
+  display: inline-block;
+  vertical-align: top;
+  width: 93vw;
+  margin-top: 1vw;
+  margin-left: 3vw;
+
+}
+
+#hid {
+  display: inline-block;
+  padding-left: 0.8vw;
+  padding-top: 0.4vw;
+  font-size: 1.8vw;
+}
+#hidb {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin-top: -1.8vw;
+  margin-left: 87.8vw;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
