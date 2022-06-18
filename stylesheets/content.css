@@ -88,42 +88,93 @@ display: block;
    z-index: 1;
    width: 62.1vw;
    height: 40.2vw;
-   margin-top: 40vw;
+   margin-top: 40.14vw;
    margin-left: 25.3vw;
  }
- .arrow1{
-   width: 18vw;
+ .aa {
+
    height: 0.2vw;
    background-color:  #EA513A;
    display: inline-block;
-   margin-left: -2.5vw;
+   margin-left: 0.5vw;
+ }
+ .arrow1{
+   width: 18vw;
+ }
+ .arrow2{
+   width: 16.5vw;
+ }
+ .arrow3, .arrow4{
+   width: 13.8vw;
+ }
+
+ .arrow5, .arrow6{
+   width: 10.6vw;
+ }
+
+ .arrow7{
+   width: 11.2vw;
+ }
+ .arrow8{
+   width: 16.9vw;
  }
  .arrowt {
   border: solid #EA513A;
   border-width: 0 0.2vw 0.2vw 0;
   display: inline-block;
   padding: 0.5vw;
-  margin-left: -2.5vw;
+  margin-left: -1.3vw;
 }
 
  .right {
    transform: rotate(-45deg);
    -webkit-transform: rotate(-45deg);
  }
- .t{
+ .t, .tinside{
    border-top: 1px solid #0014C8;
+   background-color:#EFEFEF;
    width: 62.1vw;
    height: 5vw;
    display: inline-block;
    display: flex;
    align-items: center;
+   cursor: pointer;
  }
-.tsmall{
-  font-size: 0.9vw;
-}
+ .t8{
+   border-bottom: 2px solid #0014C8;
+ }
+
+ .texpt1, .texpt2, .texpt3, .texpt4, .texpt5, .texpt6, .texpt7, .texpt8{
+   display: none;
+   position: absolute;
+   margin-left: 28vw;
+   margin-top: 8vw;
+   width: 23vw;
+ }
+
+ .texp{
+   height: 9vw;
+   display: inline-block;
+   display: flex;
+   align-items: flex-start;
+ }
+
+ .visible{
+ display: block;
+ }
  .tText{
    font-size: 3vw;
    display: inline-block;
+   padding: 1vw;
+ }
+ .tsmall{
+   font-size: 0.9vw;
+ }
+ .squareredras{
+   width: 3%;
+ }
+ .trapezewhiteras{
+   width: 3%;
  }
 .rt{
    display: inline-block;
@@ -530,47 +581,4 @@ input:focus{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-.ae {
-  display: block;
-  position: relative;
-  height: 50px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding-top: 2%;
-  transition: all .4s ease;
-}
-
-.h4h{
-display: none;
-}
-.visible{
-display: block;
-}
- .ae-exp {
-  height: 250px;
-}
-
-.ae > div {
-  position: relative;
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
- .ae-in3 {
-  float: right;
-  padding-right: 2%;
-}
-
-div.ae-in2 {
-  display: inline-block;
-}
-.ae .ae-exp .ae-in2 .ae-in1 .ae-in3 {
-  /* position: relative; */
-  display: inline-block;
-}
+.

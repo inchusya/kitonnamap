@@ -60,16 +60,47 @@ $(".navig5").click(function(){
 
 
 
-  $('.ae').click(function () {
-    $(this).toggleClass('ae-exp');
-    $('.h4h').toggleClass('visible');
+
+
+
+  $(".t1").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt1").toggleClass("visible");
   });
 
+  $(".t2").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt2").toggleClass("visible");
+  });
 
+  $(".t3").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt3").toggleClass("visible");
+  });
 
+  $(".t4").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt4").toggleClass("visible");
+  });
 
+  $(".t5").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt5").toggleClass("visible");
+  });
 
+  $(".t6").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt6").toggleClass("visible");
+  });
 
+  $(".t7").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt7").toggleClass("visible");
+  });
 
+  $(".t8").click(function () {
+    $(this).toggleClass("texp");
+    $(".texpt8").toggleClass("visible");
+  });
 
 });
