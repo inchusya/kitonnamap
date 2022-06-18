@@ -60,6 +60,15 @@ $(".navig5").click(function(){
 
 
 
+  $('.ae').click(function () {
+    $(this).toggleClass('ae-exp');
+    $('.h4h').toggleClass('visible');
+  });
+
+
+
+
+
 
 
 
