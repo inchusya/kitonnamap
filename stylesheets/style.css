@@ -25,6 +25,13 @@ font-style: normal;
 font-weight: normal;
 }
 
+@font-face {
+font-family: "Stratos-semilightitalic";
+src: url("../font/StratosLCG-Desktop-semilightitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
 .grid-container{
   display: grid;
 }

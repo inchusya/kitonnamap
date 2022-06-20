@@ -32,7 +32,7 @@ p {
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
-  width: 110%;
+    width: 100vw;
   height: 110%;
 
   display: block;
@@ -157,6 +157,7 @@ display: block;
    display: inline-block;
    display: flex;
    align-items: flex-start;
+
  }
 
  .visible{
@@ -172,6 +173,7 @@ display: block;
  }
  .squareredras{
    width: 3%;
+   text-align: right;
  }
  .trapezewhiteras{
    width: 3%;
@@ -580,5 +582,26 @@ input:focus{
   font-size: 1.8vw;
   cursor: pointer;
 }
+#hidb:hover{
+  color: white;
+}
 
-.
+#many {
+  display: inline-block;
+  vertical-align: top;
+  width: 93vw;
+  margin-top: 1vw;
+  margin-left: 3vw;
+
+}
+
+#bl {
+  display: inline-block;
+  padding-left: 0.8vw;
+  padding-top: 0.4vw;
+  font-size: 1.8vw;
+}
+
+.courseve{
+  font-family: Stratos-semilightitalic;
+}
