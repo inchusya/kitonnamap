@@ -13,11 +13,7 @@ $("#searchb").click(function(){
     });
 
 
-// let a = 200;
-// while (a > 0) {
-//   a -= 1;
-//   $("#bl").clone().appendTo("#many");
-// }
+$(".textrun").clone().appendTo(".devider");
 
 let a = 262;
 while (a > 0) {
