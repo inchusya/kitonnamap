@@ -46,6 +46,9 @@ p {
 .grid2{
   margin-top: 99.88%;
 }
+.grid3{
+  margin-top: 199.7%;
+}
 .mapback{
 display: block;
   background-position: top;
@@ -112,20 +115,45 @@ display: block;
   border-top: 4px solid #0014C8;
   border-bottom: 4px solid #0014C8;
   margin-top: 12.4%;
+  white-space: nowrap;
+  /* display: flex;
+  align-items: center; */
 }
 .textrun{
   font-size: 8vw;
   animation: marc 40s linear infinite;
   animation-play-state: running;
   display: inline-block;
-  white-space: nowrap;
   vertical-align: top;
+  margin-top: 2%;
 }
 @keyframes marc {
     0% {transform: translateX(0);}
     100% {transform: translateX(-100%);}
 }
+.number1{
+  width: 11.7%;
+  margin-top: 37.6%;
+}
+.number2{
+  width: 61.7%;
+  margin-left: 1%;
 
+}
+.number3{
+  width: 23.7%;
+
+}
+.number4{
+  width: 61%;
+  margin-left: 13%;
+
+}
+.number5{
+  width: 85.7%;
+
+  margin-left: 1%;
+}
 .navigation{
   display: flex;
   margin-top: -5%;
@@ -297,7 +325,7 @@ display: block;
   height: 3vw;
   width: 49.6vw;
   font-size: 1.3vw;
-  font-family: Stratos;
+  font-family: Stratos-semilight;
   color: #0014C8;
   margin-top: 19vw;
   margin-left: 25vw;
@@ -313,7 +341,7 @@ input:focus{
   height: 3.4vw;
   width: 5vw;
   font-size: 1.3vw;
-  font-family: Stratos;
+  font-family: Stratos-semilight;
   color: #0014C8;
   margin-top: 19vw;
   margin-left: 76vw;
