@@ -228,5 +228,92 @@ $(".merch6").click(function(){
        document.location.href = "./pen.html";
 
 });
+$(".merch7").click(function(){
+       document.location.href = "./hous.html";
+
+});
+
+
+$(".number1").hover(
+function () {
+$(".nt1").css("opacity", 1);
+$(".number2").css("opacity", 0.2);
+$(".number3").css("opacity", 0.2);
+$(".number4").css("opacity", 0.2);
+$(".number5").css("opacity", 0.2);
+
+}, function () {
+$(".nt1").css("opacity", 0);
+$(".number2").css("opacity", 1);
+$(".number3").css("opacity", 1);
+$(".number4").css("opacity", 1);
+$(".number5").css("opacity", 1);
+}
+);
+
+$(".number2").hover(
+function () {
+$(".nt2").css("opacity", 1);
+$(".number1").css("opacity", 0.2);
+$(".number3").css("opacity", 0.2);
+$(".number4").css("opacity", 0.2);
+$(".number5").css("opacity", 0.2);
+
+}, function () {
+$(".nt2").css("opacity", 0);
+$(".number1").css("opacity", 1);
+$(".number3").css("opacity", 1);
+$(".number4").css("opacity", 1);
+$(".number5").css("opacity", 1);
+}
+);
+$(".number3").hover(
+function () {
+$(".nt3").css("opacity", 1);
+$(".number1").css("opacity", 0.2);
+$(".number2").css("opacity", 0.2);
+$(".number4").css("opacity", 0.2);
+$(".number5").css("opacity", 0.2);
+
+}, function () {
+$(".nt3").css("opacity", 0);
+$(".number1").css("opacity", 1);
+$(".number2").css("opacity", 1);
+$(".number4").css("opacity", 1);
+$(".number5").css("opacity", 1);
+}
+);
+$(".number4").hover(
+function () {
+$(".nt4").css("opacity", 1);
+$(".number1").css("opacity", 0.2);
+$(".number2").css("opacity", 0.2);
+$(".number3").css("opacity", 0.2);
+$(".number5").css("opacity", 0.2);
+
+}, function () {
+$(".nt4").css("opacity", 0);
+$(".number1").css("opacity", 1);
+$(".number2").css("opacity", 1);
+$(".number3").css("opacity", 1);
+$(".number5").css("opacity", 1);
+}
+);
+$(".number5").hover(
+function () {
+$(".nt5").css("opacity", 1);
+$(".number1").css("opacity", 0.2);
+$(".number2").css("opacity", 0.2);
+$(".number3").css("opacity", 0.2);
+$(".number4").css("opacity", 0.2);
+
+}, function () {
+$(".nt5").css("opacity", 0);
+$(".number1").css("opacity", 1);
+$(".number2").css("opacity", 1);
+$(".number3").css("opacity", 1);
+$(".number4").css("opacity", 1);
+}
+);
 
 });

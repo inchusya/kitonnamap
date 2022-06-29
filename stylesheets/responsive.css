@@ -1,0 +1,163 @@
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1921px) {
+  /* для большого монитора */
+}
+
+@media only screen and (min-device-width: 1365px) and (max-device-width: 1441px) {
+  /* для среднего монитора */
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1025px) {
+  /* для маленького монитора */
+}
+@media only screen and (max-device-width: 768px) {
+  /* для айпада */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* телефончики */
+
+  .info {
+    width: 100%;
+    height: 71vw;
+    margin-left: 0;
+}
+.itemslot {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    margin-top: 0%;
+}
+h3 {
+    font-size: 20vw;
+}
+h3+h3{
+  font-size: 8vw;
+  padding: 2%;
+}
+h3+h3+h3{
+  font-size: 8vw;
+  margin-top: -12%;
+  text-align: right;
+  margin-right: 19vw;
+}
+h3+p{
+
+  font-size: 8vw;
+  padding: 2%
+}
+h3+p+p{
+  font-size: 3vw;
+  padding: 2%
+}
+.navigation {
+    display: flow-root;
+    margin-top: -5%;
+
+}
+.rn {
+    width: 10vw;
+    height: 5vw;
+    /* display: block; */
+
+
+    margin-top: 1vw;
+    padding-left: 8%;
+    display: inline-block;
+}
+/* .aboutras{
+    text-align: center;
+} */
+.rt {
+    width: 101%;
+    font-size: 4vw;
+    padding: 0px;
+
+
+}
+.navig1 {
+  height: 14vw;
+    margin-left: 4%;
+    /* width: 100%; */
+}
+.navig2 {
+  height: 14vw;
+}
+.aboutras{
+  width: 101%;
+   margin: 0 auto;
+   padding: 0px;
+ }
+.raspisanieras{
+      width: 240%;
+      margin: 0 auto;
+      padding: 0px;
+      text-align: center;
+ }
+
+ .squareblue, .squarered, .squarewhite{
+   width: 87%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+ .triangleblue, .trianglered, .trianglewhite{
+   width: 93%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+ .circleblue, .circlered, .circlewhite{
+   width: 90%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+ .rectangleblue, .rectanglered, .rectanglewhite{
+   width: 100%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+ .halfcircleblue, .halfcirclered, .halfcirclewhite{
+   width: 100%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+ .merchitems {
+    height: 276vw;
+}
+ .merchslot {
+    height: 50vw;
+    width: 50vw;
+}
+.merch2 {
+  margin-top: -29.8%;
+  margin-left: 49.5%;
+}
+.merch7{
+  margin-top: -0.8%;
+  margin-left: 18%;
+}
+.merch3{
+  margin-top: -0.8%;
+  margin-left: -2%;
+}
+.merch4{
+  margin-top: -40.8%;
+  margin-left: 47%;
+}
+.merch5{
+  margin-top: -0.8%;
+  margin-left: 18%;
+}
+.merch6{
+  margin-top: -0.8%;
+  margin-left: 0%;
+}
+
+}
+
+@media only screen   and (max-device-width: 320px) {
+  /* маленькие телефончики */
+}
