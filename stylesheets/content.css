@@ -20,17 +20,45 @@ p {
 h1{
   font-family: Stratos-semilight;
   color: #EFEFEF;
-  font-size: 9.6vw;
-  text-align: right;
-  padding-right: 13vw;
+  font-size: 4.6vw;
+  margin-top: -6%;
+  margin-left: 2%;
+
 }
 h2{
   font-family: Stratos-semilight;
   color: #EFEFEF;
-  font-size: 2.3vw;
-  text-align: right;
-  padding-right: 13vw;
+  font-size: 1.1vw;
+  margin-left: 2%;
 }
+h3{
+  font-family: Stratos-semilight;
+  color: #0014C8;
+  font-size: 8vw;
+}
+h3+h3{
+  font-size: 2vw;
+  padding: 2%;
+}
+h3+h3+h3{
+  color: red;
+  font-size: 2vw;
+  margin-top: -9%;
+  text-align: right;
+  margin-right: 5vw;
+}
+h3+p{
+  font-family: Stratos-semilight;
+  /* color: red; */
+  font-size: 2vw;
+  padding: 2%
+}
+h3+p+p{
+  /* color: orange; */
+  font-size: 1.2vw;
+  padding: 2%
+}
+
 .mapimg, .mapimgwhite{
   background-size: 150%;
   background-position: top;
@@ -96,6 +124,15 @@ display: block;
   width: 10%;
   padding-top: 2vw;
   margin-left: 1.2vw;
+  cursor: pointer;
+}
+.opzero{
+opacity: 0;
+}
+.logowhite{
+  width: 33%;
+  padding-top: 20vw;
+  margin-left: 34.6vw;
   cursor: pointer;
 }
 .ship{
@@ -587,4 +624,56 @@ input:focus{
 .poster{
   position: absolute;
   width: 37.5%;
+}
+
+.merchitems{
+
+  height: 75vw;
+  width: 100vw;
+  margin-top: 2.7%;
+
+}
+.merchslot{
+  height: 24.9vw;
+  width: 24.9vw;
+  background-color: #0014C8;
+  cursor: pointer;
+}
+.mer{
+  width: 100%;
+}
+.merch2{
+  margin-top: -24.8%;
+  margin-left: 37.5%;
+}
+.merch3{
+  margin-left: 25%;
+}
+.merch4{
+  margin-top: -24.8%;
+  margin-left: 62.5%;
+}
+.merch5{
+  margin-left: 12.5%
+}
+.merch6{
+  margin-top: -24.8%;
+  margin-left: 50%;
+}
+.itemslot{
+  width: 62.5vw;
+  height: 62.5vw;
+  /* background-color: red; */
+  overflow: hidden;
+  margin-top: -40%;
+}
+.hat{
+  width: 98%;
+  }
+.info{
+  width: 37vw;
+  height: 40vw;
+  /* background-color: green; */
+  margin-left: 62.6%;
+  margin-top: 6.3%;
 }

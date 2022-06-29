@@ -203,5 +203,30 @@ if (count4 == 3) {
 };
 });
 
+$(".merch1").click(function(){
+       document.location.href = "./hat.html";
+
+});
+
+$(".merch2").click(function(){
+       document.location.href = "./book.html";
+
+});
+$(".merch3").click(function(){
+       document.location.href = "./coat.html";
+
+});
+$(".merch4").click(function(){
+       document.location.href = "./weight.html";
+
+});
+$(".merch5").click(function(){
+       document.location.href = "./sticker.html";
+
+});
+$(".merch6").click(function(){
+       document.location.href = "./pen.html";
+
+});
 
 });
