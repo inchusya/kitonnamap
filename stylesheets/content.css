@@ -6,26 +6,30 @@
 
 
 body {
-  background: #EFEFEF;
-  width: 100vw;
-
+  background-color: #EFEFEF;
+  background-image: url(../img/gridpart.svg);
+  background-repeat: repeat;
+  position: relative;
+  padding-bottom: 150px;
 }
-/* .container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . .";
-} */
+
 p {
   font-family: Stratos-semilight;
   color: #0014C8;
+}
+h1{
+  font-family: Stratos-semilight;
+  color: #EFEFEF;
+  font-size: 9.6vw;
+  text-align: right;
+  padding-right: 13vw;
+}
+h2{
+  font-family: Stratos-semilight;
+  color: #EFEFEF;
+  font-size: 2.3vw;
+  text-align: right;
+  padding-right: 13vw;
 }
 .mapimg, .mapimgwhite{
   background-size: 150%;
@@ -33,14 +37,34 @@ p {
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
-    width: 100vw;
-  height: 110%;
-
+  width: 100vw;
+  height: 100%;
   display: block;
  }
+ #vid1{
 
+ z-index: -2;
+ width: 102%;
+ position: absolute;
+ /* top: -37%; */
+ /* left: -5%; */
+ }
+ /* .sun{
+   width: 11%;
+   margin-left: 46%;
+   margin-top: 7%;
+   animation: sun 10s linear infinite;
+   animation-play-state: running;
+ }
+ @keyframes sun {
+     0% {opacity: 0;}
+     5% {opacity: 1;}
+     30% {opacity: 1;}
+     100% {opacity: 0;}
+ } */
 .gridback{
   position: absolute;
+
   z-index: -2;
 }
 .grid2{
@@ -64,10 +88,10 @@ display: block;
   margin-left: -50%;
   margin-top: -50%;
 }
-.mapimg{
+/* .mapimg{
     background-image: url("../img/map.svg");
-    height: 207vw;
-}
+    height: 207vw; */
+/* } */
 .logoimg{
   width: 10%;
   padding-top: 2vw;
@@ -79,8 +103,7 @@ display: block;
   background-repeat: no-repeat;
   width: 12.5vw;
   height: 12.5vw;
-  height: 12.5vw;
-  margin-top: 31.2%;
+  margin-top: -5.3%;
   margin-left: 74.9%;
 }
 .rocks{
@@ -131,29 +154,80 @@ display: block;
     0% {transform: translateX(0);}
     100% {transform: translateX(-100%);}
 }
+.numbers{
+  position: relative;
+  width: 100%;
+  height: 60vw;
+}
 .number1{
-  width: 11.7%;
-  margin-top: 37.6%;
+position: absolute;
+  /* width: 11.7%;
+  margin-top: 37.6%; */
 }
 .number2{
+  position: absolute;
   width: 61.7%;
-  margin-left: 1%;
+  /* margin-left: 13%;
+  margin-top: 39%; */
 
 }
 .number3{
+  position: absolute;
   width: 23.7%;
+  /* margin-top: 39%;
+  margin-left: 75%; */
 
 }
 .number4{
+  position: absolute;
   width: 61%;
-  margin-left: 13%;
+  /* margin-left: 13%;
+  margin-top: 63%; */
 
 }
 .number5{
-  width: 85.7%;
-
-  margin-left: 1%;
+  position: absolute;
+  width: 60.7%;
+  /* margin-left: 13%;
+  margin-top: 102% */
 }
+
+.game{
+  position: relative;
+  width: 49.2%;;
+  margin-top: 1%;
+  transform: scaleX(103.5%);
+}
+.gamet{
+  position: relative;
+  margin-top: -37%;
+  margin-left: 63%;
+  width: 24.2%;
+}
+.linkpic{
+  position: relative;
+  width: 50%;
+  height: 10vw;
+  /* padding-bottom: -10%; */
+}
+footer{
+  position: absolute;
+  height: 150px;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fut1, .fut2, .fut3{
+  position: relative;
+  text-align: center;
+}
+
+
 .navigation{
   display: flex;
   margin-top: -5%;
@@ -161,28 +235,29 @@ display: block;
 
 .raspisanie{
   font-size: 10vw;
-  position: absolute;
-  z-index: 1;
-  margin-top: 12vw;
+  /* position: absolute;
+  z-index: 1; */
+  margin-top: 6vw;
   margin-left: 13vw;
  }
  .rText{
    font-family: Stratos-light;
    font-size: 1.8vw;
    line-height: 2.2vw;
-   position: absolute;
-   z-index: 1;
+   /* position: absolute;
+   z-index: 1; */
    width: 39vw;
-   margin-top: 25.6vw;
+   margin-top: 3vw;
    margin-left: 26vw;
  }
  .table{
    background-color:#EFEFEF;
-   position: absolute;
-   z-index: 1;
+   position: relative;
+   /* position: absolute;
+   z-index: 1; */
    width: 62.1vw;
    height: 40.2vw;
-   margin-top: 40.14vw;
+   margin-top: 1.1vw;
    margin-left: 25.3vw;
  }
  .aa {
@@ -227,6 +302,7 @@ display: block;
  .t, .tinside{
    border-top: 1px solid #0014C8;
    background-color:#EFEFEF;
+   position: relative;
    width: 62.1vw;
    height: 5vw;
    display: inline-block;
@@ -294,8 +370,9 @@ display: block;
   padding-left: 4%;
 }
 .gruzbody{
-
-  overflow: hidden;
+  padding-bottom: 50%;
+  /* overflow: hidden;
+  height: 100vh; */
 }
 .squareblue, .squarered, .squarewhite{
   width: 36%;
@@ -418,4 +495,96 @@ input:focus{
 
 .courseve{
   font-family: Stratos-semilightitalic;
+}
+
+
+.slider{
+  width: 37.5vw;
+  margin-left: 12.5%;
+  margin-top: 15.2%;
+  height: 53vw;
+  overflow: hidden;
+}
+.slider2{
+  position: absolute;
+  z-index: 5;
+  width: 37.5vw;
+  margin-top: -53vw;
+  margin-left: 12.5%;
+  height: 53vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slider1{
+  width: 37.5vw;
+  margin-left: 62.5%;
+  margin-top: -53%;
+  height: 53vw;
+  overflow: hidden;
+}
+.slider12{
+  position: absolute;
+  z-index: 5;
+  width: 37.5vw;
+  margin-top: -53vw;
+  margin-left: 62.5%;
+  height: 53vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slider21{
+  width: 37.5vw;
+  margin-left: 0%;
+  margin-top: 0.1%;
+  height: 53vw;
+  overflow: hidden;
+}
+.slider22{
+  position: absolute;
+  z-index: 5;
+  width: 37.5vw;
+  margin-top: -53vw;
+  margin-left: 0.1%;
+  height: 53vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slider31{
+  width: 37.5vw;
+  margin-left: 50%;
+  margin-top:-53vw;
+  height: 53vw;
+  overflow: hidden;
+}
+.slider32{
+  position: absolute;
+  z-index: 5;
+  width: 37.5vw;
+  margin-top: -53vw;
+  margin-left: 50%;
+  height: 53vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.slider41{
+  width: 37.5vw;
+  margin-left: 37.5%;
+  margin-top: 0.1vw;
+  height: 53vw;
+  overflow: hidden;
+}
+.slider42{
+  position: absolute;
+  z-index: 5;
+  width: 37.5vw;
+  margin-left: 37.5%;
+  margin-top: -52.9vw;
+  height: 53vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+.poster{
+  position: absolute;
+  width: 37.5%;
 }

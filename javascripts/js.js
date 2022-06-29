@@ -104,4 +104,104 @@ $(".navig5").click(function(){
     $(".texpt8").toggleClass("visible");
   });
 
+
+
+
+
+  let count = 0;
+  $(".slider2").click(function () {
+  count += 1;
+  if (count == 1) {
+  $(".p2").css("z-index", 1);
+  $(".p3, .p1").css("z-index", "inherit");
+  };
+  if (count == 2) {
+    $(".p3").css("z-index", 1);
+    $(".p2, .p1").css("z-index", "inherit");
+  };
+  if (count == 3) {
+    $(".p1").css("z-index", 1);
+    $(".p2, .p3").css("z-index", "inherit");
+    count=0;
+  };
+});
+
+let count1 = 0;
+$(".slider12").click(function () {
+count1 += 1;
+if (count1 == 1) {
+$(".p12").css("z-index", 1);
+$(".p13, .p11").css("z-index", "inherit");
+};
+if (count1 == 2) {
+  $(".p13").css("z-index", 1);
+  $(".p12, .p11").css("z-index", "inherit");
+};
+if (count1 == 3) {
+  $(".p11").css("z-index", 1);
+  $(".p12, .p13").css("z-index", "inherit");
+  count1=0;
+};
+});
+
+
+let count2 = 0;
+$(".slider22").click(function () {
+count2 += 1;
+if (count2 == 1) {
+$(".p22").css("z-index", 1);
+$(".p23, .p21").css("z-index", "inherit");
+};
+if (count2 == 2) {
+  $(".p23").css("z-index", 1);
+  $(".p22, .p21").css("z-index", "inherit");
+};
+if (count2 == 3) {
+  $(".p21").css("z-index", 1);
+  $(".p22, .p23").css("z-index", "inherit");
+  count2=0;
+};
+});
+
+
+
+let count3 = 0;
+$(".slider32").click(function () {
+count3 += 1;
+if (count3 == 1) {
+$(".p32").css("z-index", 1);
+$(".p33, .p31").css("z-index", "inherit");
+};
+if (count3 == 2) {
+  $(".p33").css("z-index", 1);
+  $(".p32, .p31").css("z-index", "inherit");
+};
+if (count3 == 3) {
+  $(".p31").css("z-index", 1);
+  $(".p32, .p33").css("z-index", "inherit");
+  count3=0;
+};
+});
+
+
+
+let count4 = 0;
+$(".slider42").click(function () {
+count4 += 1;
+if (count4 == 1) {
+$(".p42").css("z-index", 1);
+$(".p43, .p41").css("z-index", "inherit");
+};
+if (count4 == 2) {
+  $(".p43").css("z-index", 1);
+  $(".p42, .p41").css("z-index", "inherit");
+};
+if (count4 == 3) {
+  $(".p41").css("z-index", 1);
+  $(".p42, .p43").css("z-index", "inherit");
+  count4=0;
+};
+});
+
+
 });
