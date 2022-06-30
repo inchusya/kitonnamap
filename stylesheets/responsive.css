@@ -11,13 +11,13 @@
       background-size: 14.3%;
   }
   #vid1{
-    width: 221%; 
+    width: 221%;
   }
 }
 
 @media only screen and (min-device-width: 769px) and (max-device-width: 1025px) {
   #vid1{
-          width: 221%;
+    width: 221%;
   }
   /* для маленького монитора */
 }
