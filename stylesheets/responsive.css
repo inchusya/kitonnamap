@@ -104,31 +104,31 @@ h3+p+p{
        text-align: center;
   }
 
- .squareblue, .squarered, .squarewhite{
+ .squareblue, .squarered{
    width: 87%;
    text-align: center;
    display: block;
    margin: 0 auto;
  }
- .triangleblue, .trianglered, .trianglewhite{
+ .triangleblue, .trianglered{
    width: 49%;
    text-align: center;
    display: block;
    margin: 0 auto;
  }
- .circleblue, .circlered, .circlewhite{
+ .circleblue, .circlered{
    width: 58%;
    text-align: center;
    display: block;
    margin: 0 auto;
  }
- .rectangleblue, .rectanglered, .rectanglewhite{
+ .rectangleblue, .rectanglered{
    width: 97%;
    text-align: center;
    display: block;
    margin: 0 auto;
  }
- .halfcircleblue, .halfcirclered, .halfcirclewhite{
+ .halfcircleblue, .halfcirclered{
    width: 100%;
    text-align: center;
    display: block;
@@ -323,19 +323,42 @@ body {
 }
 .indw{
   display: block;
-  width: 
+  width: 23%;
+  margin-top: 21%;
+  margin-left: 8%;
+  padding: 3%;
+}
+.indwtext{
+  font-size: 8vw;
 }
 #vid1{
     width: 391%;
 }
 h1 {
     font-size: 20.6vw;
-    margin-top: -76%;
+    margin-top: -205%;
 }
 h2 {
   font-size: 4.8vw;
 }
-
+.logowhite {
+    display: none;
+}
+.squarewhite{
+  width: 87%;
+}
+.trianglewhite{
+width: 93%;
+}
+.circlewhite{
+width: 87%;
+}
+.rectanglewhite{
+width: 87%;
+}
+.halfcirclewhite{
+width: 87%;
+}
 }
 
 @media only screen   and (max-device-width: 320px) {
