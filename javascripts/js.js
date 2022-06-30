@@ -30,6 +30,7 @@ if (width >= 320 && width <= 480) {
   }
 }
 
+
 $("#inlineError p").hover(function(){
   $(this).css("opacity", "0");
 },
