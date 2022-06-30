@@ -15,10 +15,19 @@ $("#searchb").click(function(){
 
 $(".textrun").clone().appendTo(".devider");
 
-let a = 262;
+let a = 263;
 while (a > 0) {
   a -= 1;
   $("#hid").clone().appendTo("#inlineError");
+}
+
+var width = $(window).width();
+if (width >= 320 && width <= 480) {
+  let b = 264;
+  while (b > 0) {
+    b -= 1;
+    $("#hid").clone().appendTo("#inlineError2");
+  }
 }
 
 $("#inlineError p").hover(function(){

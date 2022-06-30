@@ -49,38 +49,42 @@ h3+p+p{
   font-size: 3vw;
   padding: 2%
 }
+.logoimg {
+  width: 27%;
+  padding-top: 2vw;
+  margin-left: 5.2vw;
+}
 .navigation {
     display: flow-root;
-    margin-top: -5%;
+    margin-top: 3%;
 
 }
 .rn {
     width: 10vw;
     height: 5vw;
-    /* display: block; */
-
-
     margin-top: 1vw;
-    padding-left: 8%;
+    padding-left: 5%;
     display: inline-block;
 }
-/* .aboutras{
-    text-align: center;
-} */
+
 .rt {
     width: 101%;
     font-size: 4vw;
     padding: 0px;
 
-
 }
 .navig1 {
   height: 14vw;
-    margin-left: 4%;
+  margin-left: 0%;
     /* width: 100%; */
 }
 .navig2 {
   height: 14vw;
+  width: 20vw;
+}
+.navig3 {
+  height: 14vw;
+  width: 15vw;
 }
 .aboutras{
   width: 101%;
@@ -88,11 +92,17 @@ h3+p+p{
    padding: 0px;
  }
 .raspisanieras{
-      width: 240%;
+      width: 35%;
       margin: 0 auto;
       padding: 0px;
       text-align: center;
  }
+ .novostiras{
+       width: 35%;
+       margin: 0 auto;
+       padding: 0px;
+       text-align: center;
+  }
 
  .squareblue, .squarered, .squarewhite{
    width: 87%;
@@ -101,19 +111,19 @@ h3+p+p{
    margin: 0 auto;
  }
  .triangleblue, .trianglered, .trianglewhite{
-   width: 93%;
+   width: 49%;
    text-align: center;
    display: block;
    margin: 0 auto;
  }
  .circleblue, .circlered, .circlewhite{
-   width: 90%;
+   width: 58%;
    text-align: center;
    display: block;
    margin: 0 auto;
  }
  .rectangleblue, .rectanglered, .rectanglewhite{
-   width: 100%;
+   width: 97%;
    text-align: center;
    display: block;
    margin: 0 auto;
@@ -154,6 +164,176 @@ h3+p+p{
 .merch6{
   margin-top: -0.8%;
   margin-left: 0%;
+}
+#search {
+  height: 13vw;
+  width: 65.6vw;
+  font-size: 4.3vw;
+  margin-top: 70vw;
+  margin-left: 4vw;
+}
+#searchb {
+    height: 13vw;
+    width: 17.6vw;
+    font-size: 4.3vw;
+    margin-top: 70vw;
+    margin-left: 76vw;
+}
+.gruzbody {
+    padding-bottom: 190%;
+}
+footer{
+  font-size: 3vw;
+}
+#hid {
+    display: inline-block;
+    padding-left: 2.8vw;
+    padding-top: 0.4vw;
+    font-size: 3.6vw;
+}
+#inlineError{
+  display: none;
+}
+#inlineError2{
+  display: block;
+}
+.table {
+    width: 73vw;
+    margin-top: 11.1vw;
+    margin-left: 25.3vw;
+}
+.t, .tinside {
+    width: 73vw;
+    height: 35vw;
+    align-items: inherit;
+}
+.tText {
+    font-size: 7vw;
+    padding: 1vw;
+}
+.tText2 {
+  margin-top: 17vw;
+  margin-left: 3vw;
+}
+.tText3 {
+  margin-top: 25vw;
+  margin-left: -17vw;
+}
+.tText4 {
+    width: 10%;
+    margin-top: -31%;
+}
+.right{
+  transform: rotate(45deg);
+ -webkit-transform: rotate(45deg);
+}
+.aa {
+  height: 24vw;
+  margin-left: 0.5vw;
+  margin-top: 7vw;
+}
+.arrowt {
+  height: 2vw;
+  width: 2vw;
+  border-width: 0 0.6vw 0.6vw 0;
+  padding: 0.5vw;
+  margin-left: -2.1vw;
+  margin-top: 37%;
+}
+.arrow1{
+  width: 0.6vw;
+  margin-left: 0vw;
+}
+.arrow2{
+  width: 0.6vw;
+  margin-left: -3vw;
+}
+.arrow3, .arrow4{
+  width: 0.6vw;
+  margin-left: -8vw;
+}
+
+.arrow5, .arrow6{
+  width: 0.6vw;
+  margin-left: -15vw;
+}
+
+.arrow7{
+  width: 0.6vw;
+  margin-left: -12vw;
+}
+.arrow8{
+  width: 0.6vw;
+  margin-left: 2vw;
+}
+.texpt1, .texpt2, .texpt3, .texpt4, .texpt5, .texpt6, .texpt7, .texpt8 {
+    margin-left: 18vw;
+    margin-top: 40vw;
+    width: 42vw;
+}
+.texp {
+    height: 89vw;
+}
+
+.rText {
+    font-size: 2.8vw;
+    width: 46vw;
+}
+.tsmall {
+    font-size: 2.9vw;
+    margin-left: 17vw;
+    margin-top: 5%;
+}
+body {
+    background-size: 25%;
+}
+.ship {
+    background-size: 100%;
+    width: 27.5vw;
+    height: 24.5vw;
+    margin-top: 2.5%;
+}
+.rocks {
+    width: 50vw;
+    height: 50vw;
+    margin-left: 25%;
+}
+.whales {
+    background-size: 100%;
+    width: 99.5vw;
+    height: 50vw;
+}
+.people {
+  background-size: 100%;
+    width: 74.5vw;
+    margin-left: 25.4%;
+}
+.numbers {
+    margin-top: 24.5%;
+}
+.linkpic {
+    width: 100%;
+    height: 97vw;
+    margin-top: 24.5%;
+}
+.gamet {
+  margin-top: 0%;
+  margin-left: 3%;
+  width: 71%;
+}
+.indw{
+  display: block;
+  width: 
+}
+#vid1{
+    width: 391%;
+}
+h1 {
+    font-size: 20.6vw;
+    margin-top: -76%;
+}
+h2 {
+  font-size: 4.8vw;
 }
 
 }

@@ -526,6 +526,7 @@ input:focus{
   background: #0014C8;
   text-decoration-color: #EFEFEF;
   font-size: 1.3vw;
+  padding-bottom: 0;
 }
 /* .erblock{
   display: block;
@@ -539,13 +540,15 @@ input:focus{
   display: block;
 }
 
-#inlineError {
+#inlineError, #inlineError2 {
   display: inline-block;
   vertical-align: top;
   width: 93vw;
   margin-top: 1vw;
   margin-left: 3vw;
-
+}
+#inlineError2{
+  display: none;
 }
 
 #hid {
